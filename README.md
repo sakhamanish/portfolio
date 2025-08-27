@@ -1,12 +1,12 @@
 # Engineer Research Enthusiast
 
 ### EDUCATION
-- PhD. in Biosystems Engineering from Auburn University, Samuel Ginn College of Engineering (January 2022 - December 2024)
-- M.S in Mechanical Engineering from University of Nevada, Reno, College of Engineering (January 2020 - December 2021)
-- Bachelor of Engineering from Tribhuvan University, Institute of Engineering, Thapathali Campus (September 2012 - October 2016)
+- Ph.D., Biosystems Engineering | Auburn University, Samuel Ginn College of Engineering (January 2022 - December 2024)
+- M.S., Mechanical Engineering | University of Nevada, Reno, College of Engineering (January 2020 - December 2021)
+- B.E., Mechanical Engineering | Tribhuvan University, Institute of Engineering, Thapathali Campus (September 2012 - October 2016)
 
 ### WORK EXPERIENCE
-Process Engineer @ ASI Industrial, Billings, MT                                            (December 2024 - Present)
+**Process Engineer @ ASI Industrial, Billings, MT                                            (December 2024 - Present)**
 - Designing a novel process for efficient storage and handling of renewable feedstocks.
 - Creating and reviewing process flow diagrams and piping and instrumentation diagrams.
 - Analyzing a scope of work and specifications for material handling systems.
@@ -14,7 +14,7 @@ Process Engineer @ ASI Industrial, Billings, MT                                 
 - Generating equipment and wiring lists for material handling systems.
 - Equipment/component selection and procurement for the material handling systems.
 
-Research Assistant @ Center for Bioenergy and Bioproducts, Auburn University, Auburn, AL  (January 2022 - December 2024) 
+**Research Assistant @ Center for Bioenergy and Bioproducts, Auburn University, Auburn, AL  (January 2022 - December 2024)** 
 - Performed the hydrothermal liquefaction (HTL) and pyrolysis of lignocellulosic biomass to produce bio-oil.
 - Designed and used fixed bed and fluidized bed reactors for thermochemical conversion.
 - Characterized the produced bio-oil using gas chromatography-mass spectrometry (GC-MS), nuclear magnetic resonance (NMR), thermogravimetric analysis, ultimate analysis, and Karl Fisher titration.
@@ -26,31 +26,31 @@ Research Assistant @ Center for Bioenergy and Bioproducts, Auburn University, Au
 - Performed the life cycle analysis (LCA) of the pine pyrolysis reaction for biofuel production.
 - Performed statistical analysis of the experimental results using R-studio.
 
-Electro-mechanical Engineering Technician Intern @ Hamilton Company, Reno, NV            (June 2021 - August 2021)
+**Electro-mechanical Engineering Technician Intern @ Hamilton Company, Reno, NV            (June 2021 - August 2021)**
 - Assembled simple to sophisticated laboratory fluid handling equipment according to blueprint and schematics.
 - Worked in a production environment, assembling mechanical laboratory devices.
 - Used hand tools, tweezers, and other light machinery.
 - Used standard test equipment, including voltmeters and specific product testers.
 
-Graduate Assistant @ Department of Mechanical Engineering, University of Nevada, Reno, NV (January 2020 - May 2021)
+**Graduate Assistant @ Department of Mechanical Engineering, University of Nevada, Reno, NV (January 2020 - May 2021)**
 - Conducted the printability study of the nanocomposite obtained by adding laponite into graphene oxide.
 - Performed feasibility study of the direct ink writing process for additive manufacturing using yield stress materials.
 - Mentored undergraduate students as teaching assistant for Computer Aided Design and Manufacturing, and Additive Manufacturing Technology courses.
 - Assisted teaching SOLIDWORKS© for a class having around 20 students.
 
-Assistant Lecturer @ Khwopa Engineering College, Bhaktapur, Nepal                        (May 2018 - December 2020)
+**Assistant Lecturer @ Khwopa Engineering College, Bhaktapur, Nepal                        (May 2018 - December 2020)**
 - Delivered engineering drawing lessons to students in an interactive way.
   Topics covered: Limit dimensioning, assembly, disassembly, isometric and oblique drawings, orthographic projection, and sectional and auxiliary views.
 - Made students capable of understanding thermodynamics through lecture and laboratory sessions.
   Topics covered: Energy and heat transfer, first and second law of thermodynamics, power cycles, refrigeration, and air conditioning
 - Set question papers and examine students’ understanding.
 
-Regional Officer @ V.G Automobiles Pvt. Ltd., Kathmandu, Nepal                           (July 2017 - January 2018)
+**Regional Officer @ V.G Automobiles Pvt. Ltd., Kathmandu, Nepal                           (July 2017 - January 2018)**
 - Performed Pre-delivery inspection (PDI) of three-wheeler.
 - Conducted research-oriented activities to solve technical problems in engines and trained technicians regarding specifications and functions of three-wheelers.
 - Conducted spare, service, and sales training to dealers and assisted in the marketing of automobile and spare parts.
 
-Mechanical Engineer @ Chandra and Basant Construction Pvt. Ltd., Lalitpur, Nepal         (February 2017 - April 2017)
+**Mechanical Engineer @ Chandra and Basant Construction Pvt. Ltd., Lalitpur, Nepal         (February 2017 - April 2017)**
 - Performed supervision and record-keeping of all vehicles along with heavy equipment.
 - Carried out the decision-making regarding maintenance and servicing heavy equipment.
 - Planned and executed road construction along with the project manager.
