@@ -1,8 +1,8 @@
 # Engineer Research Enthusiast
 
 ### EDUCATION
-Biosystems Engineering, PhD
-Mechanical Engineering, M.S
+- Biosystems Engineering, PhD
+- Mechanical Engineering, M.S
 
 ### WORK EXPERIENCE
 Process Engineer @ ASI Industrial, Billings, MT
