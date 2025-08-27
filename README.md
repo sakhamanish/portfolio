@@ -1,9 +1,9 @@
 # Engineer Research Enthusiast
 
 ### EDUCATION
-- PhD. in Biosystems Engineering from Auburn University, Samuel Ginn College of Engineering (December 2024)
-- M.S in Mechanical Engineering from University of Nevada, Reno, College of Engineering (December 2021)
-- Bachelor of Engineering from Tribhuvan University, Institute of Engineering, Thapathali Campus (October 2016)
+- PhD. in Biosystems Engineering from Auburn University, Samuel Ginn College of Engineering (January 2022 - December 2024)
+- M.S in Mechanical Engineering from University of Nevada, Reno, College of Engineering (January 2020 - December 2021)
+- Bachelor of Engineering from Tribhuvan University, Institute of Engineering, Thapathali Campus (September 2012 - October 2016)
 
 ### WORK EXPERIENCE
 Process Engineer @ ASI Industrial, Billings, MT                                            (December 2024 - Present)
@@ -24,6 +24,7 @@ Research Assistant @ Center for Bioenergy and Bioproducts, Auburn University, Au
 - Used SOLIDWORKS© and AutoCAD© to design the reactor components.
 - Used surface response method (RSM) in the Minitab© to optimize the pyrolysis operating parameters.
 - Performed the life cycle analysis (LCA) of the pine pyrolysis reaction for biofuel production.
+- Performed statistical analysis of the experimental results using R-studio.
 
 Electro-mechanical Engineering Technician Intern @ Hamilton Company, Reno, NV            (June 2021 - August 2021)
 - Assembled simple to sophisticated laboratory fluid handling equipment according to blueprint and schematics.
