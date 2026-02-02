@@ -63,6 +63,7 @@
 - Other skills: MS Word, MS Excel, PowerPoint, Zotero, LCA, Origin
 
 ### PUBLICATIONS
+- Sakhakarmy, M., Gaertner, J., Wongsurakul, P., Ivanchenko, P., Jaisi, D. P., Ammar, M., Baltrusaitis, J., & Adhikari, S. (2026). Response surface method to optimize bio-oil yield and hydroxyl number from pine pyrolysis using a bubbling fluidized bed reactor. Renewable Energy, 125208, https://doi.org/10.1016/j.renene.2026.125208
 - Sakhakarmy M., Kemp A., Biswas B., Kafle S., Adhikari S. (2024) A Comparative Analysis of Bio-Oil Collected Using an Electrostatic Precipitator from the Pyrolysis of Douglas Fir, Eucalyptus, and Poplar Biomass. Energies, 17(12):2800, https://doi.org/10.3390/en17122800
 - Sakhakarmy, M., Kafle, S., & Adhikari, S. (2024). Upcycling of pine and sodium silicate composites through pyrolysis: Effects of pyrolysis temperature and sodium silicate content. Energy Conversion and Management: X, 23, 100615, https://doi.org/10.1016/j.ecmx.2024.100615
 - Shezi, M., Sakhakarmy, M., Adhikari, S., & Kiambi, S. L. (2025). Stabilization of the Bio-Oil Organic Phase via Solvent-Assisted Hydrotreating, Part 1: Investigating the Influence of Various Solvents. Bioengineering, 12(5), 537, https://doi.org/10.3390/bioengineering12050537
