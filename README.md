@@ -6,7 +6,7 @@
 - B.E., Mechanical Engineering | Tribhuvan University, Institute of Engineering, Thapathali Campus (September 2012 - October 2016)
 
 ### WORK EXPERIENCE
-**Process Engineer @ ASI Industrial, Billings, MT                                            (December 2024 - Present)**
+**Mechanical/Process Engineer @ ASI Industrial, Billings, MT                                            (December 2024 - Present)**
 - Designing a novel process for efficient storage and handling of renewable feedstocks.
 - Creating and reviewing process flow diagrams and piping and instrumentation diagrams.
 - Analyzing a scope of work and specifications for material handling systems.
