@@ -326,20 +326,58 @@
 
   /* ---------- Scroll effects ---------- */
   const nav = $(".nav");
-  const onScroll = () => nav.classList.toggle("scrolled", window.scrollY > 8);
+  const links = $$(".nav-links a");
+  const sections = $$("main > section[id]");
+
+  // Highlight the section under the upper part of the screen. The last
+  // section (Contact) is short and can't scroll that high, so reaching the
+  // bottom of the page highlights it instead.
+  let pinned = null; // section chosen by a nav click, kept until the user scrolls
+  const updateActive = () => {
+    if (pinned) {
+      links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${pinned}`));
+      return;
+    }
+    const atBottom = window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 4;
+    let current = sections[0];
+    if (atBottom) current = sections[sections.length - 1];
+    else for (const s of sections) if (s.getBoundingClientRect().top <= window.innerHeight * 0.4) current = s;
+    links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${current.id}`));
+  };
+
+  let ticking = false;
+  const onScroll = () => {
+    if (ticking) return;
+    ticking = true;
+    requestAnimationFrame(() => {
+      nav.classList.toggle("scrolled", window.scrollY > 8);
+      updateActive();
+      ticking = false;
+    });
+  };
   window.addEventListener("scroll", onScroll, { passive: true });
+  window.addEventListener("resize", onScroll);
   onScroll();
 
-  const links = $$(".nav-links a");
-  const spy = new IntersectionObserver(
-    (entries) =>
-      entries.forEach((en) => {
-        if (!en.isIntersecting) return;
-        links.forEach((a) => a.classList.toggle("active", a.getAttribute("href") === `#${en.target.id}`));
-      }),
-    { rootMargin: "-45% 0px -50% 0px" },
+  links.forEach((a) =>
+    a.addEventListener("click", () => {
+      pinned = a.getAttribute("href").slice(1);
+      updateActive();
+    }),
   );
-  $$("main > section[id]").forEach((s) => spy.observe(s));
+  const unpin = () => (pinned = null);
+  ["wheel", "touchstart", "keydown"].forEach((ev) => window.addEventListener(ev, unpin, { passive: true }));
+
+  // "#top" points at the sticky header, which never leaves the screen, so
+  // the browser's own anchor jump stops short. Scroll to the very top instead.
+  $$('a[href="#top"]').forEach((a) =>
+    a.addEventListener("click", (e) => {
+      e.preventDefault();
+      pinned = null;
+      window.scrollTo({ top: 0, behavior: reducedMotion ? "auto" : "smooth" });
+      history.replaceState(null, "", location.pathname + location.search);
+    }),
+  );
 
   const revealer = new IntersectionObserver(
     (entries) =>
