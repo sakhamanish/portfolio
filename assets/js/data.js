@@ -185,8 +185,17 @@ window.PORTFOLIO = {
     },
   ],
 
-  // Topics drive the publication filter chips.
+  // Topics drive the publication filter chips. `doi` may be null until one is known;
+  // the site then links to a Google Scholar search for the title instead.
   publications: [
+    {
+      year: 2026,
+      authors: "Wongsurakul, P., Chotigkrai, N., Kiatkittipong, W., Sakhakarmy, M., Hongloi, N., Khanal, C. K., … & Adhikari, S.",
+      title: "Integrated experimental and machine learning study of pyrolysis oil and model waste cooking oil co-hydrotreating over NiMo/γ-Al2O3",
+      venue: "Biomass and Bioenergy, 109880",
+      doi: null, // add when known, e.g. "10.1016/j.biombioe.…"
+      topics: ["Upgrading & catalysis", "Modeling & statistics"],
+    },
     {
       year: 2026,
       authors: "Sakhakarmy, M., Gaertner, J., Wongsurakul, P., Ivanchenko, P., Jaisi, D. P., Ammar, M., Baltrusaitis, J., & Adhikari, S.",

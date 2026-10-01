@@ -42,6 +42,8 @@
 
   /* ---------- Stats ---------- */
   const isFirstAuthor = (p) => /^Sakhakarmy\b/.test(p.authors);
+  const paperUrl = (p) =>
+    p.doi ? `https://doi.org/${p.doi}` : `https://scholar.google.com/scholar?q=${encodeURIComponent(`"${p.title}"`)}`;
   const firstYear = Math.min(...D.timeline.filter((t) => t.type === "work").map((t) => parseInt(t.start.slice(-4), 10)));
   const stats = [
     { value: D.publications.length, label: "peer-reviewed publications" },
@@ -167,7 +169,7 @@
                 <div class="pub-foot">
                   ${isFirstAuthor(p) ? '<span class="tag first">First author</span>' : ""}
                   ${p.topics.map((t) => `<span class="tag">${esc(t)}</span>`).join("")}
-                  <a href="https://doi.org/${esc(p.doi)}" target="_blank" rel="noopener">Read paper ↗</a>
+                  <a href="${esc(paperUrl(p))}" target="_blank" rel="noopener">${p.doi ? "Read paper" : "Find paper"} ↗</a>
                 </div>
               </div>
             </li>`,
@@ -288,7 +290,7 @@
     section("Skills", `<ul>${D.skills.map((g) => `<li><b>${esc(g.group)}:</b> ${g.items.map(esc).join(", ")}</li>`).join("")}</ul>`),
     section(
       "Publications",
-      `<ul>${D.publications.map((p) => `<li>${esc(p.authors)} (${p.year}). ${esc(p.title)}. <i>${esc(p.venue)}</i>. https://doi.org/${esc(p.doi)}</li>`).join("")}</ul>`,
+      `<ul>${D.publications.map((p) => `<li>${esc(p.authors)} (${p.year}). ${esc(p.title)}. <i>${esc(p.venue)}</i>.${p.doi ? ` https://doi.org/${esc(p.doi)}` : ""}</li>`).join("")}</ul>`,
     ),
     section("Presentations", `<ul>${D.presentations.map((p) => `<li>${esc(p.kind)}: “${esc(p.title)}.” ${esc(p.event)}, ${esc(p.date)}.</li>`).join("")}</ul>`),
     section("Supervision", `<ul>${D.supervision.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>`),
