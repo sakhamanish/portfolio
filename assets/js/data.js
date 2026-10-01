@@ -193,7 +193,7 @@ window.PORTFOLIO = {
       authors: "Sakhakarmy, M., Biswas, B., Wongsurakul, P., Feyzbar-Khalkhali-Nejad, F., Ivanchenko, P., Jaisi, D. P., … & Adhikari, S.",
       title: "Efficient upgrading of pyrolysis bio-oil via hydrodeoxygenation using cost-effective Cu-based catalysts supported on alumina",
       venue: "Fuel, 428, 140271",
-      doi: null,
+      doi: "10.1016/j.fuel.2026.140271",
       topics: ["Upgrading & catalysis"],
     },
     {
@@ -201,7 +201,7 @@ window.PORTFOLIO = {
       authors: "Wongsurakul, P., Chotigkrai, N., Kiatkittipong, W., Sakhakarmy, M., Hongloi, N., Khanal, C. K., … & Adhikari, S.",
       title: "Integrated experimental and machine learning study of pyrolysis oil and model waste cooking oil co-hydrotreating over NiMo/γ-Al2O3",
       venue: "Biomass and Bioenergy, 109880",
-      doi: null, // add when known, e.g. "10.1016/j.biombioe.…"
+      doi: "10.1016/j.biombioe.2026.109880",
       topics: ["Upgrading & catalysis", "Modeling & statistics"],
     },
     {
