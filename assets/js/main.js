@@ -278,7 +278,7 @@
   cv.innerHTML = [
     `<h1>${esc(D.name)}</h1>`,
     `<p class="cv-sub">${esc(D.role)} · ${esc(D.credential)} · ${esc(D.location)}</p>`,
-    `<p class="cv-contact">${[c.email, c.phone && c.phone.replace(/^\+1(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3"), c.linkedin, c.scholar && "Google Scholar: " + c.scholar]
+    `<p class="cv-contact">${[c.email, c.phone && c.phone.replace(/^\+1(\d{3})(\d{3})(\d{4})$/, "($1) $2-$3"), c.linkedin]
       .filter(Boolean)
       .map(esc)
       .join(" · ")}</p>`,
