@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Manish Sakhakarmy · Engineer &amp; Researcher</title>
+    <meta
+      name="description"
+      content="Manish Sakhakarmy: mechanical/process engineer with a Ph.D. in Biosystems Engineering. Bioenergy research, publications, and projects."
+    />
+    <meta property="og:title" content="Manish Sakhakarmy · Engineer & Researcher" />
+    <meta property="og:description" content="Mechanical/process engineer, Ph.D. in Biosystems Engineering. Pyrolysis, bio-oil and renewable feedstock systems." />
+    <meta property="og:image" content="assets/portfolio_image.png" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23c2410c'/%3E%3Ctext x='32' y='42' font-family='Arial' font-size='26' font-weight='700' text-anchor='middle' fill='white'%3EMS%3C/text%3E%3C/svg%3E" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script>
+      // Apply the saved theme before first paint to avoid a flash.
+      try {
+        const t = localStorage.getItem("theme");
+        if (t) document.documentElement.dataset.theme = t;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to content</a>
+
+    <header class="nav" id="top">
+      <div class="nav-inner">
+        <a href="#top" class="brand">Manish&nbsp;Sakhakarmy</a>
+        <nav aria-label="Sections">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#journey">Journey</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode">
+          <svg class="i-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="4.5"/><path d="M12 1.5v3M12 19.5v3M4.2 4.2l2.1 2.1M17.7 17.7l2.1 2.1M1.5 12h3M19.5 12h3M4.2 19.8l2.1-2.1M17.7 6.3l2.1-2.1"/></svg>
+          <svg class="i-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 14.5A8.5 8.5 0 1 1 9.5 3.5a7 7 0 0 0 11 11z"/></svg>
+        </button>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="about">
+        <div class="hero-text reveal">
+          <p class="eyebrow" data-bind="tagline"></p>
+          <h1 data-bind="name"></h1>
+          <p class="hero-role"><span data-bind="role"></span> · <span data-bind="credential"></span></p>
+          <p class="hero-summary" data-bind="summary"></p>
+          <div class="cta" data-slot="contact-buttons"></div>
+        </div>
+        <figure class="hero-photo reveal">
+          <img data-bind-src="photo" alt="Portrait of Manish Sakhakarmy" width="498" height="617" />
+          <figcaption><span class="dot" aria-hidden="true"></span> <span data-bind="location"></span></figcaption>
+        </figure>
+      </section>
+
+      <section class="stats reveal" aria-label="At a glance" data-slot="stats"></section>
+
+      <section id="journey" class="section">
+        <div class="section-head reveal">
+          <h2>Journey</h2>
+          <p>From Kathmandu to Reno, Auburn and Billings. Click any step for details.</p>
+        </div>
+        <div class="chips" role="group" aria-label="Filter timeline" data-slot="timeline-filters"></div>
+        <ol class="timeline" data-slot="timeline"></ol>
+      </section>
+
+      <section id="research" class="section">
+        <div class="section-head reveal">
+          <h2>Research</h2>
+          <p>Thermochemical conversion of biomass: pyrolysis, hydrothermal processing, bio-oil upgrading and biochar.</p>
+        </div>
+
+        <div class="pub-tools reveal">
+          <label class="search">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+            <input type="search" id="pub-search" placeholder="Search titles, journals, co-authors…" aria-label="Search publications" />
+          </label>
+          <label class="toggle"><input type="checkbox" id="pub-first" /> First-author only</label>
+        </div>
+        <div class="chips" role="group" aria-label="Filter by topic" data-slot="topic-filters"></div>
+        <p class="pub-count" aria-live="polite" data-slot="pub-count"></p>
+        <ol class="pubs" data-slot="publications"></ol>
+
+        <div class="split">
+          <div class="reveal">
+            <h3>Presentations</h3>
+            <ul class="talks" data-slot="presentations"></ul>
+          </div>
+          <div class="reveal">
+            <h3>Honors &amp; awards</h3>
+            <ul class="awards" data-slot="awards"></ul>
+            <h3>Supervision</h3>
+            <ul class="plain" data-slot="supervision"></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <div class="section-head reveal">
+          <h2>Skills</h2>
+          <p>Hands-on with reactors and lab instruments, fluent in design and analysis tools.</p>
+        </div>
+        <div class="tabs reveal" role="tablist" aria-label="Skill groups" data-slot="skill-tabs"></div>
+        <div class="skill-panel reveal" role="tabpanel" data-slot="skill-panel"></div>
+      </section>
+
+      <section id="projects" class="section">
+        <div class="section-head reveal">
+          <h2>Side projects</h2>
+          <p>Software I build outside the lab: private, local-first AI tools.</p>
+        </div>
+        <div class="projects" data-slot="projects"></div>
+      </section>
+
+      <section id="contact" class="section contact reveal">
+        <h2>Let's talk</h2>
+        <p>Open to conversations about process engineering, bioenergy and renewable materials.</p>
+        <div class="cta center" data-slot="contact-buttons"></div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>© <span id="year"></span> Manish Sakhakarmy</p>
+      <a href="#top">Back to top ↑</a>
+    </footer>
+
+    <noscript>
+      <p class="noscript">This site needs JavaScript to show its content. You can also find me on
+        <a href="https://www.linkedin.com/in/manish-sakhakarmy/">LinkedIn</a>.</p>
+    </noscript>
+
+    <!-- Printable CV, filled from the same data; shown only when printing. -->
+    <article class="print-cv" data-slot="print-cv" aria-hidden="true"></article>
+
+    <script src="assets/js/data.js"></script>
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
